@@ -1,0 +1,6 @@
+1. Agregar signo de pregunta al input total
+2. Configurar boton resetear
+3. Cambiar nombre al boton
+4. Cambiar cara a la tarjeta mala
+5. Validar que no se puede ingresar un numero > total
+6.

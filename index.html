@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contain">
+        <header class="headerr"><h1>ROCKET REPARTITION</h1></header>
+
+        <div class="container_app">
+            <div class="titulo"><h1>INGRESA EL TOTAL</h1></div>
+            <div class="cuerpo">
+                <form action="#" id="formulario">
+                    <span class="tota">TOTAL</span>
+                    <div class="datos">
+                        <input type="number" class="login__input" id="login-input-user total">
+                        <span >CANTIDAD DE PERSONAS</span>
+                        <div class='ctrl'>
+                            <div class='ctrl-button ctrl-button-decrement'>-</div>
+                            <div class='ctrl-counter'>
+                              <input class='ctrl-counter-input' id="cantidadP" maxlength='10' type='text' value='0'>
+                              <div class='ctrl-counter-num'>0</div>
+                            </div>
+                            <div class='ctrl-button ctrl-button-increment'>+</div>
+                        </div>
+                    </div>
+                    <div class="mensajeError"></div>
+                    <div class="btn">
+                        <button type="submit" class="acomodar shortcut info  rounded no-caption" id="reset">
+                            <span class=" mif-replay mif-4x fg-red" ></span>
+                        </button>
+                    
+                        <button type="submit" class="shortcut info  rounded no-caption" id="calcular">
+                            <span class="mif-rocket icon"></span>
+                        </button>                   
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="container_users">
+            <div id="cargando" class="hidden">
+                <div class="spinner">
+                  <div class="rect1"></div>
+                  <div class="rect2"></div>
+                  <div class="rect3"></div>
+                  <div class="rect4"></div>
+                  <div class="rect5"></div>
+                </div>
+            </div>
+            <!--
+            <div class="users register">
+                <h3 class="titulo_card">PERSONA 1</h3>
+                <ul class="user_card carDos">
+                    <li><i class="fas fa-user grandeDos"></i></li>
+                    <form id="formPersona">
+                        <input class="inpu" id="nombre" type="text" data-role="input" data-prepend="Nombre: ">
+                        <input class="inpu" id="pago" type="number" data-role="input" data-prepend="Pago: ">
+                        <button type="submit" class="button primary buttonP">Primary</button>
+                    </form>
+               </ul>
+            </div>
+            
+            <div class="users good">
+                <h3 class="titulo_card">SU RESUMEN GOOD</h3>
+                <ul class="user_card">
+                    <li><i class="grande far fa-smile ico"></i></li>
+                    <li class="font-bold">NOMBRE: <span class="font-normal"> Guillermo</span></li>
+                    <li class="font-bold">PAGO: $<span class="font-normal">2567</span></li>
+                    <li class="font-bold">TOTAL PERSONA: $<span class="font-normal">1567</span></li>
+                    <li class="font-bold">DEBE: $<span class="font-normal">-300</span></li>
+                </ul>
+            </div>
+
+            <div class="users bad">
+                <h3 class="titulo_card">SU RESUMEN BAD</h3>
+                <ul class="user_card">
+                    <li><i class="grande far fa-frown ico"></i></li>
+                    <li class="font-bold">NOMBRE: <span class="font-normal"> Guillermo</span></li>
+                    <li class="font-bold">PAGO: $<span class="font-normal">567</span></li>
+                    <li class="font-bold">TOTAL PERSONA: $<span class="font-normal">1567</span></li>
+                    <li class="font-bold">DEBE: $<span class="font-normal">1000</span></li>
+                </ul>
+            </div>
+            -->
+        </div>
+        
+    </div>
+    <script src="https://cdn.metroui.org.ua/v4.3.2/js/metro.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
